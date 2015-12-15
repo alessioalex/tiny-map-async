@@ -1,6 +1,6 @@
 {
   "author": "Alexandru Vladutu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "dependencies": {
     "tiny-each-async": "^2.0.1"
