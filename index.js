@@ -32,7 +32,7 @@ module.exports = function mapAsync(arr, parallelLimit, iterator, cb) {
 
     iterate.apply(null, args);
   }, function sendResults(err) {
-    if (err) { return cb(err); }
+    if (err) { return callback(err); }
 
     // maintain the order the functions were called in for the results as well
     callback(null, Object.keys(results).sort().map(function mapResults(i) {
